@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zWHCfvVFSs20zSi7R1Uc3WlE59Rdk82K54YUclCweGdTlAQgRzWnjtLY4eGBhJPzIlJ3c5iRpiF42iCklCgxFA==",
+  "dgSpecHash": "OwGHzIHSz/uydPdTgGc2GQiUjZA9+2DzuSHDdgpWtRAmhzRjOyEPT2BHcdbtDEXm5ogVzL3fgr34H6REGfj+LA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj",
+  "projectFilePath": "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\djarl\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\djarl\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.9\\microsoft.aspnetcore.authentication.jwtbearer.6.0.9.nupkg.sha512",

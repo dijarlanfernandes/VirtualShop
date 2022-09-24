@@ -14,12 +14,12 @@ namespace VirtualShop.ProductApi.DTOs
         [Required(ErrorMessage = "The Name is Required")]
         [MinLength(3)]
         [MaxLength(100)]
-        public string? Name { get; set; }
+        public string Name { get; set; }
 
         [Required(ErrorMessage = "The Description is Required")]
         [MinLength(5)]
         [MaxLength(200)]
-        public string? Description { get; set; }
+        public string Description { get; set; }
 
         [Required(ErrorMessage = "The Price is Required")]
         [Column(TypeName = "decimal(12,2)")]
@@ -31,12 +31,12 @@ namespace VirtualShop.ProductApi.DTOs
 
         [MaxLength(250)]
         [DisplayName("Product Image")]
-        public string? ImageURL { get; set; }
+        public string ImageURL { get; set; }
 
-        public string? CategoryName { get; set; }
+        public string CategoryName { get; set; }
 
         public int CategoryId { get; set; }
         [JsonIgnore]
-        public Category? Category { get; set; }
+        public Category Category { get; set; }
     }
 }

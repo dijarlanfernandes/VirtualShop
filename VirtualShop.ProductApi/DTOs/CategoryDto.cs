@@ -10,8 +10,8 @@ namespace VirtualShop.ProductApi.DTOs
         [Required(ErrorMessage = "The Name is Required")]
         [MinLength(3)]
         [MaxLength(100)]
-        public string? Name { get; set; }
+        public string Name { get; set; }
 
-        public ICollection<Product>? Products { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

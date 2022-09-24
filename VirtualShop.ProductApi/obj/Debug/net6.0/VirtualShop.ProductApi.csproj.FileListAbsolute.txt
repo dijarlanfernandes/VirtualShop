@@ -35,3 +35,4 @@ C:\Users\djarl\Source\Repos\VirtualShop\VirtualShop.ProductApi\obj\Debug\net6.0\
 C:\Users\djarl\Source\Repos\VirtualShop\VirtualShop.ProductApi\obj\Debug\net6.0\VirtualShop.ProductApi.pdb
 C:\Users\djarl\Source\Repos\VirtualShop\VirtualShop.ProductApi\obj\Debug\net6.0\VirtualShop.ProductApi.genruntimeconfig.cache
 C:\Users\djarl\Source\Repos\VirtualShop\VirtualShop.ProductApi\obj\Debug\net6.0\ref\VirtualShop.ProductApi.dll
+C:\Users\djarl\Source\Repos\VirtualShop\VirtualShop.ProductApi\bin\Debug\net6.0\AutoMapper.dll

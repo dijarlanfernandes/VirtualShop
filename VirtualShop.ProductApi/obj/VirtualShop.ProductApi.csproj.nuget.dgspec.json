@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj": {}
+    "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj": {
+    "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj",
+        "projectUniqueName": "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj",
         "projectName": "VirtualShop.ProductApi",
-        "projectPath": "c:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj",
+        "projectPath": "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\VirtualShop.ProductApi.csproj",
         "packagesPath": "C:\\Users\\djarl\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\obj\\",
+        "outputPath": "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

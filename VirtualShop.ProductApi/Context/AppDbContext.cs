@@ -9,8 +9,8 @@ namespace VirtualShop.ProductApi.Context
         public AppDbContext(DbContextOptions<AppDbContext>options)
             :base(options)
         {}
-        public DbSet<Product> ?Products { get; set; }    
-        public DbSet<Category>?Categories { get; set; }  
+        public DbSet<Product> Products { get; set; }    
+        public DbSet<Category> Categories { get; set; }  
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Category>().HasKey(c=>c.CategoryId);
