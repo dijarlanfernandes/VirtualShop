@@ -17,10 +17,14 @@ namespace VirtualShop.ProductApi.Context
 
             builder.Entity<Product>().Property(c =>c.Name)
                 .HasMaxLength(100).IsRequired();
+            builder.Entity<Product>().HasKey(p =>p.Id);
+            builder.Entity<Product>().Property(c => c.Price).IsRequired();
+            builder.Entity<Product>().Property(c => c.Stock).IsRequired();
+            builder.Entity<Product>().Property(c => c.Description).IsRequired();
 
             builder.Entity<Category>().HasMany(p => p.Products)
                 .WithOne(c => c.Category).OnDelete(DeleteBehavior.Cascade);
-
+            
         }
     }
 }
