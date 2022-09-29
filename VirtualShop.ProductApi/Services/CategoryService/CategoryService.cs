@@ -11,9 +11,10 @@ namespace VirtualShop.ProductApi.Services.CategoryService
         private readonly ICategoryRepository repository;
         private readonly Mapper mapper;
 
-        public CategoryService(ICategoryRepository categoryRepository)
+        public CategoryService(ICategoryRepository categoryRepository, Mapper _mapper)
         {
             repository = categoryRepository;
+            mapper = _mapper;
         }
 
         public async Task CreateCategory(CategoryDto categoryDto)

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "97X5mW3ZouXEFcFe95bJI/O2N9+o+XVHpJQFv3pVB8WHh7ryZBQpJ/h8JT0uMNAnBb3K/WKoHWadsYJBcuXqcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\djarl\\Source\\Repos\\VirtualShop\\VirtualShop.DiscountApi\\VirtualShop.DiscountApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\djarl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\djarl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\djarl\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\djarl\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\djarl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\djarl\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,9 +1,13 @@
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using VirtualShop.ProductApi.Context;
+using VirtualShop.ProductApi.Repositories.CategoryRepository;
+using VirtualShop.ProductApi.Repositories.Product;
+using VirtualShop.ProductApi.Repositories.ProductRepository.ProductRepository;
+using VirtualShop.ProductApi.Services.CategoryService;
+using VirtualShop.ProductApi.Services.ProductService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +18,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("mssql"));
 });
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -22,6 +28,7 @@ builder.Services.AddControllers()
     });
 
 builder.Services.AddEndpointsApiExplorer();
+
 
 //abaixo a configuração da documentation Swagger 
 builder.Services.AddSwaggerGen(c =>
@@ -71,6 +78,11 @@ builder.Services.AddCors(options =>
                     .AllowAnyHeader();
         });
 });
+//builder.Services.AddScoped<ICategoryService, CategoryService>();
+//builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 
 builder.Services.AddAuthentication("Bearer")
         .AddJwtBearer("Bearer", options =>
@@ -92,9 +104,7 @@ builder.Services.AddAuthorization(options =>
     });
 });
 
-
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

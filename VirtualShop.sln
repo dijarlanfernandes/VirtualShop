@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualShop.ProductApi", "VirtualShop.ProductApi\VirtualShop.ProductApi.csproj", "{5FE905F9-A918-4732-AB2B-93CF97F8094B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualShop.ProductApi", "VirtualShop.ProductApi\VirtualShop.ProductApi.csproj", "{5FE905F9-A918-4732-AB2B-93CF97F8094B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualShop.IdentityServer", "VirtualShop.IdentityServer\VirtualShop.IdentityServer.csproj", "{89A42822-1899-42B9-99F4-16FEC5D65FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualShop.CartApi", "VirtualShop.CartApi\VirtualShop.CartApi.csproj", "{ABF50F51-4624-42CA-9B34-8A833026C565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualShop.Web", "VirtualShop.Web\VirtualShop.Web.csproj", "{90DED65C-3FED-446E-B53E-95F1A82656D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualShop.DiscountApi", "VirtualShop.DiscountApi\VirtualShop.DiscountApi.csproj", "{850CF78D-7FB9-48B7-83A5-CA3EB966533F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{5FE905F9-A918-4732-AB2B-93CF97F8094B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FE905F9-A918-4732-AB2B-93CF97F8094B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FE905F9-A918-4732-AB2B-93CF97F8094B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A42822-1899-42B9-99F4-16FEC5D65FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A42822-1899-42B9-99F4-16FEC5D65FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A42822-1899-42B9-99F4-16FEC5D65FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A42822-1899-42B9-99F4-16FEC5D65FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF50F51-4624-42CA-9B34-8A833026C565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF50F51-4624-42CA-9B34-8A833026C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF50F51-4624-42CA-9B34-8A833026C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF50F51-4624-42CA-9B34-8A833026C565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DED65C-3FED-446E-B53E-95F1A82656D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DED65C-3FED-446E-B53E-95F1A82656D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DED65C-3FED-446E-B53E-95F1A82656D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DED65C-3FED-446E-B53E-95F1A82656D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850CF78D-7FB9-48B7-83A5-CA3EB966533F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850CF78D-7FB9-48B7-83A5-CA3EB966533F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850CF78D-7FB9-48B7-83A5-CA3EB966533F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850CF78D-7FB9-48B7-83A5-CA3EB966533F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

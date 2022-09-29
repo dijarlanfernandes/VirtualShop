@@ -42,8 +42,7 @@ namespace VirtualShop.ProductApi.Controllers
 
 
         [HttpPost]
-        [Authorize(Roles = Role.Admin)]
-        public async Task<ActionResult<ProductDto>> CreateProduct([FromBody] ProductDto productDto)
+        public async Task<ActionResult<ProductDto>> InsertProduct([FromBody] ProductDto productDto)
         {
             if (productDto == null)
             {
@@ -56,7 +55,6 @@ namespace VirtualShop.ProductApi.Controllers
         }
 
         [HttpPut]
-        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult<ProductDto>> UpdateProduct([FromBody] ProductDto productDto)
         {
             if (productDto == null)
@@ -67,8 +65,7 @@ namespace VirtualShop.ProductApi.Controllers
 
             return Ok(productDto);
         }
-        [HttpDelete("{id}")]
-        [Authorize(Roles = Role.Admin)] 
+        [HttpDelete("{id}")] 
         public async Task<ActionResult<ProductDto>> DeleteProduct(int id)
         {
             var productid = await Service.GetProductById(id);
